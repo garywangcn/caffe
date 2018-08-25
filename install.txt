@@ -1,0 +1,13 @@
+sudo apt-get install git
+sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler
+sudo apt-get install libopenblas-base
+sudo apt-get install libopenblas-dev
+sudo apt-get install python-pip
+sudo apt-get install python-numpy
+sudo apt-get insall graphviz
+sudo pip install -r python/requirements.txt
+sudo pip install pydot
+
+make all
+make pycaffe
+make pytest
